@@ -135,8 +135,8 @@ section .hr {
 }
 .offers .title h3
 {
-    font-size: 14px;
-    width: max-content;
+    font-size: 13px;
+    width: fit-content;
     padding: 4px;
     margin-bottom: 0px;
     border-bottom: 2px solid #ffbf00;
