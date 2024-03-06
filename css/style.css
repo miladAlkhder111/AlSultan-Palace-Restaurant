@@ -115,7 +115,7 @@ header .navbar ul a
     padding: 2px 5px;
     margin: 0;
     font-weight: 100;
-    font-size: 7px;
+    font-size: 9px;
     text-shadow: none;
 
 }
@@ -431,12 +431,17 @@ header .content h2{
 .daytime .daytime-items .offers h3
 {
     color: black;
-    text-shadow: -3px 0px 10px gold;
+    text-shadow: -1px 0px 13px gold;
 }
 .daytime .daytime-items .offers p
 {
     margin: 20px;
     font-size: 20px;
+}
+.daytime .daytime-items .offers h3 span
+{
+    color: #ff0000e8;
+    text-shadow: none;
 }
 .daytime .daytime-items .offers .offer
 {
