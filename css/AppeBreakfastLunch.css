@@ -25,8 +25,14 @@ body
 {
     font-family: 'Quicksand', sans-serif;
     background: #f6f6f6d4;
-
 }
+@media (max-width:767px){
+body
+{
+        background: #f6f6f6d4;
+}
+}
+
 ul
 {
     list-style: none;

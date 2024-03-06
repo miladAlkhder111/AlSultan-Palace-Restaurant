@@ -25,7 +25,12 @@ body
 {
     font-family: 'Quicksand', sans-serif;
     background: #f6f6f6e8;
-
+}
+@media (max-width:767px){
+body
+{
+        background: #f6f6f6d4;
+}
 }
 ul
 {
@@ -135,7 +140,7 @@ section .hr {
 }
 .offers .title h3
 {
-    font-size: 11px;
+    font-size: 12px;
     width: fit-content;
     padding: 4px;
     margin-bottom: 0px;
