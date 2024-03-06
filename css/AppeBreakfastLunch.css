@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+/* font-family: 'Salsa', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Marhey', sans-serif;  arabic */
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+/* font-family: 'Tajawal', sans-serif; arabic */
+
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: 'Quicksand', sans-serif;
+    background: #f6f6f6d4;
+
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+.container
+{
+    max-width: 1199px;
+    margin:0 auto;
+    padding: 0;
+
+}
+
+
+
+/* Start brekfast menu  */
+.menu .title h2
+{
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    color: black;
+    background-color: gold;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.menu
+{
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    direction: rtl;
+
+}
+.menu .menu-items
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+
+}
+.menu .menu-items .menu-item
+{
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.menu .menu-item img
+{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+.menu-items .menu-item h3
+{
+    color: black;
+    position: relative;
+    width: 220px;
+    font-size: 20px;
+    background-color: gold;
+    padding: 10px;
+    text-align: center;
+    margin-left: 15px;
+    line-height: 1.4;
+
+}
+.menu-items .menu-item span
+{  
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    font-size: 18px;
+    padding-top: 35px;
+}
+.menu .menu-logo img
+{
+    display: none;
+}
+.menu .type-food
+{
+    direction: rtl;
+    margin-top: 60px;
+    font-size: 60px;
+    margin-right: 66px;
+    /* text-decoration: underline; */
+    text-shadow: -4px -2px 0px gold;
+
+}
+section .hr
+{
+    background-color: gold;
+    height: 16px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+
+/*******************************************/
+/*******************************************/
+/*******************************************/
+
+@media (max-width:767px){
+.menu
+{
+   margin-bottom: 400px;   /* مبدئيا  مشان شوف اخر التصميم بالموبايل من تحت
+    شو عم يصير  لما كون حاطو مية بالمية */
+
+}
+.menu .menu-logo img
+{
+    width: 250px;
+    display: block;
+    margin: -50px auto;
+}
+.menu .title h2
+{
+    font-size: 26px;
+    padding: 5px;
+    margin: 10px 0 25px;
+}
+.menu .menu-items
+{
+    display: block;
+    /* margin: 30px 0 150px; لما حط مية بلمية بتصميم الموبايل ما ببين  ف بحط 
+     50 بالمية هوي الصح وبشوف كل المحتو
+    */
+    margin-top: 30px;
+}
+.menu .menu-items .menu-item
+{
+    margin: 0px 0 20px 0;
+    width: 350px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+.menu .menu-item img
+{
+    width: 140px;
+    height: 140px;
+}
+.menu-items .menu-item h3
+{
+    width: 130px;
+    font-size: 14px;
+    margin: 0 0 10px 20px;
+    padding: 15px;
+}
+.menu-items .menu-item span
+{
+    font-size: 14px;
+    padding-top: 30px;
+    /* margin-top: 14px; */
+    right: 35px;
+
+}
+.menu .type-food
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px auto 0 ;
+    text-shadow: -2px 0px 0px gold;
+}
+section .hr
+{
+    height: 14px;
+    font-size: 12px;
+}
+}
+
+/* End brekfast menu  */

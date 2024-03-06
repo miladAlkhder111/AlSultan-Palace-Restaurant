@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+/* font-family: 'Salsa', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Marhey', sans-serif;  arabic */
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+/* font-family: 'Tajawal', sans-serif; arabic */
+
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: 'Quicksand', sans-serif;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+.container
+{
+    max-width: 1199px;
+    margin:0 auto;
+    padding: 0 15px;
+
+}
+
+
+
+
+.menu .title h2
+{
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    color: black;
+    background-color: gold;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.menu
+{
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    direction: rtl;
+}
+
+.menu .type-food
+{
+    direction: rtl;
+    font-size: 35px;
+    margin: 50px auto 0px;
+    text-align: center;
+    background-color: black;
+    color: gold;
+    padding: 7px;
+    width: fit-content;
+}
+
+.menu .menu-items
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px auto 0;
+    justify-content: center;
+}
+.menu .menu-items .menu-item
+{
+    direction: rtl;
+    margin-bottom: 50px;
+    display: inline-block;
+    margin-left: 60px;
+}
+/* .menu .menu-item img
+{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}  */
+.menu-items .menu-item h3
+{
+    color: black;
+    position: relative;
+    width: 250px;
+    font-size: 20px;
+    background-color: gold;
+    padding: 10px;
+    text-align: center;
+    margin-left: 15px;
+    line-height: 1.4;
+
+}
+.menu-items .menu-item span
+{  
+    position: absolute;
+    top: 14px;
+    right: 85px;
+    font-size: 17px;
+    padding-top: 35px;
+}
+.menu .menu-logo img
+{
+    display: none;
+} 
+section .hr
+{
+    background-color: gold;
+    height: 16px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+
+/*******************************************/
+/*******************************************/
+/*******************************************/
+
+@media (max-width:767px){
+.menu .menu-logo img    
+{
+    width: 250px;
+    display: block;
+    margin: -50px auto;
+}
+.menu .title h2
+{
+    font-size: 26px;
+    padding: 5px;
+    margin: 10px 0 25px;
+}
+.menu .type-food
+{
+    direction: rtl;
+    font-size: 20px;
+    margin: 40px auto 0px auto;
+    padding: 8px;
+    text-align: center;
+    background-color: black;
+    color: gold;
+}
+.menu .menu-items
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0px;
+
+}
+.menu .menu-items .menu-item
+{
+    margin: 25px 5px 25px;
+}
+/* .menu .menu-item img
+{
+    width: 140px;
+    height: 140px;
+} */
+.menu-items .menu-item h3
+{
+    width: 125px;
+    font-size: 13px;
+    margin: 0 auto 10px auto;
+    padding: 7px;
+}
+.menu-items .menu-item span
+{
+    font-size: 11px;
+    right: 37px;
+    margin-top: -1px;
+}
+
+section .hr
+{
+    height: 14px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+}
+
+
+/* End brekfast menu  */
+
+
+/**************     START DRINKS  DESSERTS   *****************************/
+
+.slider
+{
+    width: 450px;
+    height: 550px;
+    margin: auto;
+    direction: ltr;
+    overflow: hidden;
+   
+}
+.slider ul 
+{
+    width: 9000px;
+    overflow: hidden;
+    position: relative;
+    animation: sliding 80s ease-in-out infinite ;
+}
+.slider ul li
+{
+    float:left;
+    position: relative;
+
+}
+.slider ul li h6
+{
+    font-size: 20px;
+    position: absolute;
+    display: block;
+    text-align: center;
+    bottom: 0;
+    background-color: #ffc107;
+    padding: 7px;
+    width: 100%;
+}
+.slider ul li img
+{
+    width: 450px;
+    height: 550px;
+}
+
+@keyframes sliding {
+        1.3%{left: 0px;}
+        5%{left: -450px;}
+        10%{left: -900px;}
+        15%{left: -1350px;}
+        20%{left: -1800px;}
+        25%{left: -2250px;}
+        30%{left: -2700px;}
+        35%{left: -3150px;}
+        40%{left: -3600px;}
+        45%{left: -4050px;}
+        50%{left: -4500px;}
+        55%{left: -4950px;}
+        60%{left: -5400px;}
+        65%{left: -5850px;}
+        70%{left: -6300px;}
+        75%{left: -6750px;}
+        80%{left: -7200px;}
+        85%{left: -7650px;}
+        90%{left: -8100px;}
+        95%{left: -8550px;}
+        100%{left: -9000px;}
+}
+
+@media (max-width:767px){
+
+.slider
+{
+    width: 320px;
+    height: 350px;
+    margin: 0px auto;
+}
+.slider ul li img
+{
+    width: 320px;
+    height: 335px;
+}
+
+@keyframes sliding {
+    1.8% {left: 0px;}
+    5%{left: -320px;}
+    10%{left: -640px;}
+    15%{left: -960px;}
+    20%{left: -1280px;}
+    25%{left: -1600px;}
+    30%{left: -1920px;}
+    35%{left: -2240px;}
+    40%{left: -2560px;}
+    45%{left: -2880px;}
+    50%{left: -3200px;}
+    55%{left: -3520px;}
+    60%{left: -3840px;}
+    65%{left: -4160px;}
+    70%{left: -4480px;}
+    75%{left: -4800px;}
+    80%{left: -5120px;}
+    85%{left: -5440px;}
+    90%{left: -5760px;}
+    95%{left: -6080px;}
+    100%{left: -6400px;}
+}
+.slider ul li h6
+{
+    font-size: 15px;
+    padding: 4px;
+}
+
+}
+/**************     END DRINKS  DESSERTS   *****************************/
